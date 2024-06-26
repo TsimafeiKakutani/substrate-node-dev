@@ -1,4 +1,4 @@
-# @substrate/node-dev
+# @substrate/dev
 
 
 Included here -
