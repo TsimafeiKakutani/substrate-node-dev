@@ -1,0 +1,28 @@
+{
+  "author": "Tsimafei Your Name",
+  "description": "A basic test-functions-as-global library on top of node:test",
+  "engines": {
+    "node": ">=18.14"
+  },
+  "license": "Apache-2.0",
+  "name": "@substrate/dev-test",
+  "repository": {
+    "directory": "packages/dev-test",
+    "type": "git",
+    "url": "https://github.com/TsimafeiKakutani/substrate-node-dev.git"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "version": "0.79.3",
+  "main": "./index.js",
+  "exports": {
+    "./globals.d.ts": "./src/globals.d.ts"
+  },
+  "dependencies": {
+    "jsdom": "^24.0.0",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.6"
+  }
+}

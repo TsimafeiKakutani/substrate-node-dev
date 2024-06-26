@@ -1,0 +1,44 @@
+{
+    "author": "Tsimafei and Your name",
+    "bugs": "https://github.com/TsimafeiKakutani/substrate-node-dev/issues",
+    "engines": {
+      "node": ">=18.14"
+    },
+    "homepage": "https://github.com/TsimafeiKakutani/substrate-node-dev#readme",
+    "license": "Apache-2.0",
+    "packageManager": "yarn@4.1.1",
+    "private": true,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/TsimafeiKakutani/substrate-node-dev.git"
+    },
+    "sideEffects": false,
+    "type": "module",
+    "version": "0.0.1",
+    "versions": {
+      "git": "0.0.1",
+      "npm": "0.0.1"
+    },
+    "workspaces": [
+      "packages/*"
+    ],
+    "scripts": {
+      "build": "substrate-dev-build-ts",
+      "build:before": "substrate-dev-copy-dir --cd packages/dev config scripts build",
+      "build:release": "substrate-ci-ghact-build --skip-beta",
+      "clean": "substrate-dev-clean-build",
+      "docs": "substrate-dev-build-docs",
+      "lint": "substrate-dev-run-lint",
+      "postinstall": "./packages/dev/scripts/substrate-dev-yarn-only.mjs",
+      "test": "yarn build && substrate-dev-run-test --dev-build --env browser"
+    },
+    "devDependencies": {
+      "@substrate-node-dev/dev": "workspace:packages/dev",
+      "@substrate-node-dev/dev-test": "workspace:packages/dev-test",
+      "@substrate-node-dev/dev-ts": "workspace:packages/dev-ts"
+    },
+    "resolutions": {
+      "typescript": "^5.3.3"
+    }
+  }
+  
