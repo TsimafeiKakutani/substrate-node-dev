@@ -1,0 +1,27 @@
+{
+  "author": "Tsimafei Your Name",
+  "description": "An TS -> ESM loader for Node >= 16.12",
+  "engines": {
+    "node": ">=18"
+  },
+  "homepage": "https://github.com/TsimafeiKakutani/substrate-node-dev/tree/main/packages/dev-ts#readme",
+  "license": "Apache-2.0",
+  "name": "@substrate/dev-ts",
+  "repository": {
+    "directory": "packages/dev-ts",
+    "type": "git",
+    "url": "https://github.com/TsimafeiKakutani/substrate-node-dev.git"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "exports": {
+    "./globals.d.ts": "./src/globals.d.ts"
+  },
+  "dependencies": {
+    "json5": "^2.2.3",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  }
+}

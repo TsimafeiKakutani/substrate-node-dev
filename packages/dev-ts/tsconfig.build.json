@@ -7,8 +7,7 @@
   },
   "exclude": [
     "**/mod.ts",
-    "src/**/*.spec.ts",
-    "src/env/*.spec.ts"
+    "src/**/*.spec.ts"
   ],
   "include": [
     "src/**/*"

@@ -1,5 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
-
+// Copyright 2024 @substrate/dev-test Your Name
 import type { BaseFn, BaseObj, StubFn } from './types.js';
 
 /**

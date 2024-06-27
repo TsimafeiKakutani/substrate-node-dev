@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// Copyright 2024 @substrate/dev-test Your Name
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type AnyFn = (...args: any[]) => any;

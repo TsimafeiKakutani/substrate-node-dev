@@ -1,9 +1,11 @@
 {
   "author": "Tsimafei Your Name",
+  "bugs": "https://github.com/TsimafeiKakutani/substrate-node-dev/issues",
   "description": "A basic test-functions-as-global library on top of node:test",
   "engines": {
     "node": ">=18.14"
   },
+  "homepage": "https://github.com/TsimafeiKakutani/substrate-node-dev/tree/master/packages/dev-test#readme",
   "license": "Apache-2.0",
   "name": "@substrate/dev-test",
   "repository": {
@@ -13,7 +15,7 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.79.3",
+  "version": "0.0.1",
   "main": "./index.js",
   "exports": {
     "./globals.d.ts": "./src/globals.d.ts"

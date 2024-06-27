@@ -8,10 +8,10 @@
     "noEmit": true
   },
   "include": [
-    "src/**/*.spec.ts",
-    "src/env/*.spec.ts"
+    "src/**/*.spec.ts"
   ],
   "references": [
+    { "path": "../dev-ts/tsconfig.build.json" },
     { "path": "../dev-test/tsconfig.build.json" }
   ]
 }
