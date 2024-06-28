@@ -7,7 +7,7 @@
   },
   "homepage": "https://github.com/TsimafeiKakutani/substrate-node-dev/tree/master/packages/dev-test#readme",
   "license": "Apache-2.0",
-  "name": "@substrate/dev-test",
+  "name": "@substrate-dev/dev-test",
   "repository": {
     "directory": "packages/dev-test",
     "type": "git",
@@ -15,7 +15,7 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.2",
   "main": "./index.js",
   "exports": {
     "./globals.d.ts": "./src/globals.d.ts"

@@ -1,4 +1,4 @@
-# @substrate/dev-ts
+# @substrate-dev/node-dev-ts
 
 This is an Node TS loader, specifically written to cater for the substrate-js needs, aka it is meant to be used inside substrate-js projects. It doesn't aim to be a catch-all resolver, although it does cover quite a large spectrum of functionality.
 
@@ -15,13 +15,13 @@ It caters for -
 Just add the loader via the Node.js `--loader` option. The API supported here is only for Node 16.12+, so ensure a new-ish LTS version is used.
 
 ```
-node --loader @substrate/dev-ts ...
+node --loader @substrate-dev/node-dev-ts ...
 ```
 
 Internally to the substrate-js libraries, loader caching is used. This means that compiled files are store on-disk alongside the `/src/` folder in `/build-loader/`. To enable caching behavior, the loader endpoint is changed slightly,
 
 ```
-node --loader @substrate/dev-ts/cached ...
+node --loader @substrate-dev/node-dev-ts/cached ...
 ```
 
 This is generally the suggested default, but it is only exposed via a different loader endpoint to ensure that users explicitly opt-in and not be suprised by "random output folders" being created.

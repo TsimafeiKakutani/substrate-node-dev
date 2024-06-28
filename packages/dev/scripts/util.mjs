@@ -171,7 +171,7 @@ export function execSync (cmd, noLog) {
  * @param {boolean} [noLog]
  * @param {string} [loaderPath]
  **/
-export function execNodeTs (cmd, nodeFlags = [], noLog, loaderPath = '@substrate/dev-ts/cached') {
+export function execNodeTs (cmd, nodeFlags = [], noLog, loaderPath = '@substrate-dev/node-dev-ts/cached') {
   const loadersGlo = [];
   const loadersLoc = [];
   const otherFlags = [];

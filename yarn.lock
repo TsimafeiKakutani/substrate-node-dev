@@ -647,9 +647,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@substrate/dev-test@npm:^0.0.1, @substrate/dev-test@workspace:packages/dev-test":
+"@substrate-dev/dev-test@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "@substrate-dev/dev-test@npm:0.0.1"
+  dependencies:
+    jsdom: "npm:^24.0.0"
+    tslib: "npm:^2.6.2"
+  checksum: 10/015eacb5ec23283b4e8352f8c04646a4b7ef349a7daf09753f384d187b87b4da82ccca76d48207de9f7e6bc307640b889e75391eeeb0493261b2a656edffc086
+  languageName: node
+  linkType: hard
+
+"@substrate-dev/dev-test@workspace:packages/dev-test":
   version: 0.0.0-use.local
-  resolution: "@substrate/dev-test@workspace:packages/dev-test"
+  resolution: "@substrate-dev/dev-test@workspace:packages/dev-test"
   dependencies:
     "@types/jsdom": "npm:^21.1.6"
     jsdom: "npm:^24.0.0"
@@ -657,9 +667,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@substrate/dev-ts@npm:^0.0.1, @substrate/dev-ts@workspace:packages/dev-ts":
+"@substrate-dev/dev-ts@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "@substrate-dev/dev-ts@npm:0.0.1"
+  dependencies:
+    json5: "npm:^2.2.3"
+    tslib: "npm:^2.6.2"
+    typescript: "npm:^5.3.3"
+  checksum: 10/755c6f95f4d8b4c0a97ffaec23e75e72c9401afb6c3a49bb95a71cac1f23e2188754cd185d952b6728b3c38db06944f10820d8fb635bd648eb7d389efe9dbd15
+  languageName: node
+  linkType: hard
+
+"@substrate-dev/dev-ts@workspace:packages/dev-ts":
   version: 0.0.0-use.local
-  resolution: "@substrate/dev-ts@workspace:packages/dev-ts"
+  resolution: "@substrate-dev/dev-ts@workspace:packages/dev-ts"
   dependencies:
     json5: "npm:^2.2.3"
     tslib: "npm:^2.6.2"
@@ -667,9 +688,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@substrate/node-dev@workspace:packages/dev":
+"@substrate-dev/node-dev@workspace:packages/dev":
   version: 0.0.0-use.local
-  resolution: "@substrate/node-dev@workspace:packages/dev"
+  resolution: "@substrate-dev/node-dev@workspace:packages/dev"
   dependencies:
     "@eslint/js": "npm:^8.56.0"
     "@rollup/plugin-alias": "npm:^5.1.0"
@@ -678,8 +699,8 @@ __metadata:
     "@rollup/plugin-inject": "npm:^5.0.5"
     "@rollup/plugin-json": "npm:^6.1.0"
     "@rollup/plugin-node-resolve": "npm:^15.2.3"
-    "@substrate/dev-test": "npm:^0.0.1"
-    "@substrate/dev-ts": "npm:^0.0.1"
+    "@substrate-dev/dev-test": "npm:^0.0.1"
+    "@substrate-dev/dev-ts": "npm:^0.0.1"
     "@testing-library/react": "npm:^14.1.2"
     "@tsconfig/strictest": "npm:^2.0.2"
     "@types/node": "npm:^20.11.5"
@@ -7616,9 +7637,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@substrate/dev-test": "workspace:packages/dev-test"
-    "@substrate/dev-ts": "workspace:packages/dev-ts"
-    "@substrate/node-dev": "workspace:packages/dev"
+    "@substrate-dev/dev-test": "workspace:packages/dev-test"
+    "@substrate-dev/dev-ts": "workspace:packages/dev-ts"
+    "@substrate-dev/node-dev": "workspace:packages/dev"
   languageName: unknown
   linkType: soft
 

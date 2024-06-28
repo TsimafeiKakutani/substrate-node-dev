@@ -5,7 +5,7 @@
         "node": ">=18"
     },
     "license": "Apache-2.0",
-    "name": "@substrate/node-dev",
+    "name": "@substrate-dev/node-dev",
     "repository": {
         "directory": "packages/dev",
         "type": "git",
@@ -13,7 +13,7 @@
     },
     "sideEffects": false,
     "type": "module",
-    "version": "0.0.1",
+    "version": "1.0.2",
     "bin": {
         "substrate-ci-ghact-build": "./scripts/substrate-ci-ghact-build.mjs",
         "substrate-ci-ghact-docs": "./scripts/substrate-ci-ghact-docs.mjs",
@@ -54,8 +54,8 @@
         "@rollup/plugin-inject": "^5.0.5",
         "@rollup/plugin-json": "^6.1.0",
         "@rollup/plugin-node-resolve": "^15.2.3",
-        "@substrate/dev-test": "^0.0.1",
-        "@substrate/dev-ts": "^0.0.1",
+        "@substrate-dev/dev-test": "^0.0.1",
+        "@substrate-dev/dev-ts": "^0.0.1",
         "@tsconfig/strictest": "^2.0.2",
         "@typescript-eslint/eslint-plugin": "^6.19.1",
         "@typescript-eslint/parser": "^6.19.1",

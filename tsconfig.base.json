@@ -1,12 +1,12 @@
 {
-  "extends": "@substrate/node-dev/config/tsconfig.json",
+  "extends": "@substrate-dev/node-dev/config/tsconfig.json",
   "compilerOptions": {
     "composite": true,
     "paths": {
-      "@substrate/node-dev/types": ["dev/src/types.ts"],
-      "@substrate/node-dev/*": ["dev/src/*"],
-      "@substrate/dev-test/*": ["dev-test/src/*"],
-      "@substrate/dev-ts/*": ["dev-ts/src/*.ts"]
+      "@substrate-dev/node-dev/types": ["dev/src/types.ts"],
+      "@substrate-dev/node-dev/*": ["dev/src/*"],
+      "@substrate-dev/dev-test/*": ["dev-test/src/*"],
+      "@substrate-dev/dev-ts/*": ["dev-ts/src/*.ts"]
     },
     "resolveJsonModule": true
   }

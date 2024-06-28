@@ -1,4 +1,4 @@
-// Copyright 2024 @substrate/dev-test Your Name
+// Copyright 2024 @substrate-dev/dev-test Your Name
 
 import { browser } from './browser.js';
 import { expect } from './expect.js';

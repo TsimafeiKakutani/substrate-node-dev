@@ -7,18 +7,13 @@
   "homepage": "https://github.com/TsimafeiKakutani/substrate-node-dev#readme",
   "license": "Apache-2.0",
   "packageManager": "yarn@4.1.1",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/TsimafeiKakutani/substrate-node-dev.git"
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.0.1",
-  "versions": {
-    "git": "0.0.1",
-    "npm": "0.0.1"
-  },
+  "version": "1.0.1",
   "workspaces": [
     "packages/*"
   ],
@@ -33,9 +28,9 @@
     "test": "yarn build && substrate-dev-run-test --dev-build --env browser"
   },
   "devDependencies": {
-    "@substrate/dev-test": "workspace:packages/dev-test",
-    "@substrate/dev-ts": "workspace:packages/dev-ts",
-    "@substrate/node-dev": "workspace:packages/dev"
+    "@substrate-dev/dev-test": "workspace:packages/dev-test",
+    "@substrate-dev/dev-ts": "workspace:packages/dev-ts",
+    "@substrate-dev/node-dev": "workspace:packages/dev"
   },
   "resolutions": {
     "typescript": "^5.3.3"
